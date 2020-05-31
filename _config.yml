@@ -52,7 +52,9 @@ texture:
     linkedIn: in/adrianoselmi # format: locale/username
 
   showNav: true
-
+  navigation:
+    - title: About
+      url: "/about"
 
 
 # Exclude from processing.
