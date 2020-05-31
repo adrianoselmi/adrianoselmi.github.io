@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Site Designs: adding a column hidden from new, edit and view forms"
 date:   2020-05-31 20:57:09 +0100
-categories: jekyll update
+categories: SharePoint Site Designs
 ---
+[Home][home]
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
@@ -25,6 +27,7 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+[home]: https://adrianoselmi.github.io
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/

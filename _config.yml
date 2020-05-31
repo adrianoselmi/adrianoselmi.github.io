@@ -48,7 +48,7 @@ texture:
 
   social_links:
     twitter: ricshah
-    github:  adrianoselmi
+    #github:  adrianoselmi
     linkedIn: in/adrianoselmi # format: locale/username
 
   showNav: true
