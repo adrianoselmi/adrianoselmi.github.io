@@ -36,6 +36,7 @@ theme: texture
 plugins:
   - jekyll-feed
 
+show_excerpts: true
 
 texture:
   title: Adriano Selmi
@@ -46,7 +47,7 @@ texture:
   #disqus_shortname: games #enables comments on the page
   #analytics_id: '< YOUR ID >' google analytics
   
-  show_excerpts: true
+  
   
   social_links:
     twitter: ricshah
