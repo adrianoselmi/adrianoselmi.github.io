@@ -31,29 +31,27 @@ github_username:  adrianoselmi
 
 # Build settings
 #theme: texture
-theme: Minima
+remote_theme: thelehhman/texture
+theme: texture
 plugins:
   - jekyll-feed
 
 
-#texture:
-#  title: Adriano Selmi
-#  tagline: Office 365 Solutions Architect
-#  date_format: "%b %-d, %Y"
-#  style: black
-#  showPicker: false # show the texture selector(development purposes)
+texture:
+  title: Adriano Selmi
+  tagline: Office 365 Solutions Architect
+  date_format: "%b %-d, %Y"
+  style: black
+  showPicker: false # show the texture selector(development purposes)
   #disqus_shortname: games #enables comments on the page
   #analytics_id: '< YOUR ID >' google analytics
 
-#  social_links:
-#    twitter: ricshah
-#    github:  adrianoselmi
-#    linkedIn: in/adrianoselmi # format: locale/username
+  social_links:
+    twitter: ricshah
+    github:  adrianoselmi
+    linkedIn: in/adrianoselmi # format: locale/username
 
-#  showNav: true
-#  navigation:
-#    - title: About
-#      url: "/about"
+  showNav: true
 
 
 
