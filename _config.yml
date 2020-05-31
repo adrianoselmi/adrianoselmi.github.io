@@ -53,6 +53,8 @@ texture:
 
   showNav: true
   navigation:
+    - title: Home
+      url: "/"
     - title: About
       url: "/about"
 
