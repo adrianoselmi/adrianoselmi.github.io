@@ -10,6 +10,8 @@ excerpt_separator: <!--more-->
 <p>Using Site Designs, deploy a site column that is hidden in the new, display or edit forms. The column should only be viewable through views and be editable through the Quick edit option in views.</p>
 <!--more-->
 
+<hr>
+
 <H2>Background:</H2>
 <H5>Image:Setting a column to hidden in a content type</H5>
 ![Setting a column to hidden in the GUI](/assets/images/HiddenColumn01.gif "Hidden Column")
@@ -21,6 +23,8 @@ excerpt_separator: <!--more-->
 {% highlight powershell %}
 Get-SPOSiteScriptFromList -ListUrl "https://TENANT-admin.sharepoint.com"
 {% endhighlight %}
+
+<hr>
 
 <H2>Solution:</H2>
 <p>Use the `createSiteColumnXml` verb to enable you to add in the following properties:</p>
@@ -53,7 +57,11 @@ Get-SPOSiteScriptFromList -ListUrl "https://TENANT-admin.sharepoint.com"
 
 <p>It may seem logical to use the 'Hidden' property instead of the three listed above as this is the same setting you would select in the GUI. However setting this tag to true will hide it from everywhere including the list settings page and the content type settings page, effectively turning it into a ghost column. This property would be useful for creating hidden calculated columns used for scripting or reporting purposes.</p>
 
+<hr>
+
 <H2>References</H2>
+
+The following properties from the [Microsoft Docs SharePoint reference site][field-element] helped me solve this.
 
 | Attribute  | Description  |
 |:---|:---|
@@ -61,3 +69,6 @@ Get-SPOSiteScriptFromList -ListUrl "https://TENANT-admin.sharepoint.com"
 | ShowInEditForm  | Optional Boolean. TRUE to display the field in the form for editing the item.  |
 | ShowInNewForm  | Optional Boolean. If FALSE, the field does not show up in a Fields enumeration when the display mode is set to New. Fields with this setting do not show up in the default New Item page for a given list. In particular, this is used to hide fields on the page for uploading documents to the document library.  |
 | Hidden  | Optional Boolean. If TRUE, the field is completely hidden from the user interface. Setting ReadOnly to TRUE means the field is not displayed in New or Edit forms but can still be included in views.  |
+
+
+[field-element]: https://docs.microsoft.com/en-gb/sharepoint/dev/schema/field-element-field
