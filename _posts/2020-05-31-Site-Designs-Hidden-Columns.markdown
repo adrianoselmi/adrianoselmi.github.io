@@ -29,11 +29,11 @@ Get-SPOSiteScriptFromList -ListUrl "https://TENANT-admin.sharepoint.com"
 <H2>Solution:</H2>
 <p>Use the `createSiteColumnXml` verb to enable you to add in the following properties:</p>
 
-`ShowInDisplayForm="TRUE"`
+`ShowInDisplayForm="FALSE"`
 
-`ShowInEditForm="TRUE"`
+`ShowInEditForm="FALSE"`
 
-`ShowInNewForm="TRUE"`
+`ShowInNewForm="FALSE"`
 
 <p>These three properties will hide the column from the respective forms in the same way that setting a column to 'hidden' will. Below is a full JSON site script that will create a hidden column.</p>
 
@@ -64,7 +64,7 @@ Get-SPOSiteScriptFromList -ListUrl "https://TENANT-admin.sharepoint.com"
 The following properties from the [Microsoft Docs SharePoint reference site][field-element] helped me solve this.
 
 | Attribute  | Description  |
-|:---|:---|
+|:---|:---|`
 | ShowInDisplayForm  | Optional Boolean. TRUE to display the field in the form for viewing the item.  |
 | ShowInEditForm  | Optional Boolean. TRUE to display the field in the form for editing the item.  |
 | ShowInNewForm  | Optional Boolean. If FALSE, the field does not show up in a Fields enumeration when the display mode is set to New. Fields with this setting do not show up in the default New Item page for a given list. In particular, this is used to hide fields on the page for uploading documents to the document library.  |
