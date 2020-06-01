@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Site Designs: adding a column hidden from new, edit and view forms"
 date:   2020-05-31 20:57:09 +0100
-categories: jekyll update
+category: SharePoint
+tag: Site Design
+excerpt_separator: <!--more-->
 ---
-[Home][home]
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
