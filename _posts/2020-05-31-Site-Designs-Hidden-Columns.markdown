@@ -42,7 +42,7 @@ excerpt_separator: <!--more-->
 
 <H2>Background:</H2>
 <H5>Image:Setting a column to hidden in a content type</H5>
-![Setting a column to hidden in the GUI](/_assets/HiddenColumn01.gif "Hidden Column")
+![Setting a column to hidden in the GUI](/assets/images/HiddenColumn01.gif "Hidden Column")
 
 
 <p>To create the site design, a template site in SharePoint was utulised to test and fine tune all the columns, content types, lists, and libraries. Using PowerShell to generate the JSON provided most of the information but did not include the above settings for any columns that were set to 'Hidden' in the content type settings.</p>
