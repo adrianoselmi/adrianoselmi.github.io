@@ -43,7 +43,7 @@ texture:
   style: black
   showPicker: false # show the texture selector(development purposes)
   #disqus_shortname: games #enables comments on the page
-  #analytics_id: '< YOUR ID >' google analytics
+  analytics_id: 'UA-168152270-1' #google analytics
   
   
   
