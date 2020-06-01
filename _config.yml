@@ -38,10 +38,7 @@ show_excerpts: true
 
 texture:
   title: Adriano Selmi
-  tagline: >-
-    Office 365 Solutions Architect |
-    SharePoint | Microsoft Teams | Power Platform
-    Communication | Collaboration
+  tagline: Office 365 Solutions Architect | SharePoint | Microsoft Teams | Power Platform | Communication | Collaboration
   date_format: "%-d %b, %Y"
   style: black
   showPicker: false # show the texture selector(development purposes)

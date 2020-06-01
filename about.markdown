@@ -3,16 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
+<h1>Adriano Selmi</h1>
+<p>I am an Office 365 Solutions Architect working for [CPS][CPS] within the Modern Workplace department. My interest lie within the Office 365 services stack with most of my work being done in SharePoint, Microsoft Teams, Power Platform, and any other services feeding into the communication and collaboration aspects of the platform.</p>
+<p>My blog posts will reflect on information I have had to delve around the intranet, books, and other people's minds to figure out and solve specific issues. </p>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<H2>Contact me</H2>
+Please feel free to reach out to me through Twitter and LinkedIn. The links are in the header above. 
 
 
-[jekyll-organization]: https://github.com/jekyll
+[CPS]: https://www.cps.co.uk/
