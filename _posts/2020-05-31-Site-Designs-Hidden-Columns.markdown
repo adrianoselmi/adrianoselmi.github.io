@@ -53,7 +53,7 @@ Get-SPOSiteScriptFromList -ListUrl "https://TENANT-admin.sharepoint.com"
 
 <H3>A note on the Hidden property:</H3>
 
-`Hidden="TRUE`
+`Hidden="TRUE"`
 
 <p>It may seem logical to use the 'Hidden' property instead of the three listed above as this is the same setting you would select in the GUI. However setting this tag to true will hide it from everywhere including the list settings page and the content type settings page, effectively turning it into a ghost column. This property would be useful for creating hidden calculated columns used for scripting or reporting purposes.</p>
 
