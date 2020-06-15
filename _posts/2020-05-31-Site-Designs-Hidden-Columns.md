@@ -5,6 +5,7 @@ featured_image: /images/sidebar/IMG_3431.jpg
 date:   2020-05-31 20:57:09
 category: SharePoint
 tag: Site Design
+subtitle: adding a column hidden from new, edit and view forms
 excerpt: Using Site Designs, deploy a site column that is hidden in the new, display or edit forms. The column should only be viewable through views and be editable through the Quick edit option in views.
 ---
 # Requirement:

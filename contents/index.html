@@ -1,0 +1,39 @@
+---
+layout: default
+title: Contents
+subtitle: The contents of my site organised a bit better.
+description: The contents of my site organised a bit better.
+featured_image: /images/sidebar/IMG_3431.jpg
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+
+
+		<h2>Blog Posts</h2>
+			<ul>
+				{% for post in site.posts reversed %}
+		
+				<li><a href="{{ post.url | relative_url }}">{{ post.tag }} | {{ post.subtitle }}</a></li>
+		
+				{% endfor %}
+		
+			</ul>
+
+		<h2>Projects</h2>
+		<ul>
+
+		{% for project in site.projects reversed %}
+
+		<li><a href="{{ project.url | relative_url }}">{{ project.title }} | {{ project.subtitle }}</a></li>
+
+		{% endfor %}
+
+		</ul>
+	</div>
+
+</section>

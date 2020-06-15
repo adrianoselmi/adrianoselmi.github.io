@@ -14,6 +14,8 @@ menu_settings:
       url: '/'
     - title: 'Personal projects'
       url: '/projects/'
+    - title: 'Contents'
+      url: '/contents/'      
     - title: 'About me'
       url: '/about'
 
