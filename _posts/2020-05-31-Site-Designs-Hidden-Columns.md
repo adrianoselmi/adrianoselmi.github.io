@@ -8,7 +8,7 @@ tag: Site Design
 subtitle: adding a column hidden from new, edit and view forms
 excerpt: Using Site Designs, deploy a site column that is hidden in the new, display or edit forms. The column should only be viewable through views and be editable through the Quick edit option in views.
 ---
-# Requirement:
+## Requirement:
 
 Using Site Designs, deploy a site column that is hidden in the new, display or edit forms. The column should only be viewable through views and be editable through the Quick edit option in views.
 
